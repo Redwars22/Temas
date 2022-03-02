@@ -112,3 +112,9 @@ main {
     margin: 35px;
     border-radius: 20px;
 }
+
+.small-image {
+    width: 250px;
+    height: 140px;
+    margin: 10px;
+}
