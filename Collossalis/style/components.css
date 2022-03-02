@@ -1,93 +1,114 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap);
 
 :root {
-    --primary-color: rgb(0, 0, 255);
-    --secondary-color: rgb(128, 128, 128);
-    --border-color: orange;
+  --primary-color: rgb(0, 0, 255);
+  --secondary-color: rgb(128, 128, 128);
+  --border-color: orange;
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-input, textarea {
-    border: 2px dotted grey;
-    border-radius: 5px;
-    height: 30px;
-    font-size: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
+input,
+textarea {
+  border: 2px dotted grey;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 textarea {
-    height: auto;
+  height: auto;
 }
 
-input:focus, textarea:focus {
-    background-color: rgb(245, 245, 245);
-    color: var(--primary-color);
+input:focus,
+textarea:focus {
+  background-color: rgb(245, 245, 245);
+  color: var(--primary-color);
 }
 
-img {
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px grey;
+img, .hero-header {
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
 }
 
 button {
-    padding: 10px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: var(--primary-color);
-    color: white;
-    box-shadow: 1px 1px 1px var(--secondary-color);
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 1px 1px 1px var(--secondary-color);
 }
 
 a {
-    color: var(--secondary-color);
-    text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--primary-color);
-    text-decoration: underline wavy var(--primary-color) 1px;
+  color: var(--primary-color);
+  text-decoration: underline wavy var(--primary-color) 1px;
 }
 
 .website-logo {
-    border-radius: none;
-    box-shadow: none;
-    width: 50px;
+  border-radius: none;
+  box-shadow: none;
+  width: 50px;
 }
 
 .nav-link {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-text {
-    text-align: center;
+  text-align: center;
 }
 
 .menu-link {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 header {
-    background: rgb(255,246,0);
-    background: linear-gradient(252deg, rgba(255,246,0,0.24) 1%, rgba(228,228,228,0.9) 49%, rgba(249,152,1,0.18) 100%);
+  background: rgb(255, 246, 0);
+  background: linear-gradient(
+    252deg,
+    rgba(255, 246, 0, 0.24) 1%,
+    rgba(228, 228, 228, 0.9) 49%,
+    rgba(249, 152, 1, 0.18) 100%
+  );
 }
 
 form {
-    display: grid;
-    margin: 10px;
-    border: 3px dashed crimson;
-    padding: 5px;
+  display: grid;
+  margin: 10px;
+  border: 3px dashed crimson;
+  padding: 5px;
 }
 
 main {
-    background: rgb(255,126,0);
-background: linear-gradient(328deg, rgba(255,126,0,0.09147408963585435) 1%, rgba(255,0,0,0.04945728291316531) 29%, rgba(249,1,75,0) 67%);
+  background: rgb(255, 126, 0);
+  background: linear-gradient(
+    328deg,
+    rgba(255, 126, 0, 0.09147408963585435) 1%,
+    rgba(255, 0, 0, 0.04945728291316531) 29%,
+    rgba(249, 1, 75, 0) 67%
+  );
+}
+
+.hero-header {
+    background-image: url('../resx/placeholder.png');
+    width: calc(100vw - 35%);
+    height: 65vh;
+    background-color: black;
+    margin: 35px;
+    border-radius: 20px;
 }
