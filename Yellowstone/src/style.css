@@ -20,6 +20,12 @@ header {
     text-decoration: none;
     font-size: 25px;
     margin: 5px;
+    opacity: 0.5;
+    transition: opacity 300ms;
+}
+
+.menu-link:hover {
+    opacity: 1;
 }
 
 .website-title {
@@ -45,4 +51,11 @@ main {
 footer {
     background-color: rgba(5, 5, 51, 1.0);
     height: 100px;
+}
+
+@media (min-width: 500px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
