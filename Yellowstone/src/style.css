@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
+*{
+    font-family: 'Hubballi', cursive;
+}
+
 body 
 {
-    font-family: 'Hubballi', cursive;
     margin: 0px;
 }
 
@@ -13,6 +16,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: -1px;
 }
 
 .menu-link {
@@ -76,16 +81,28 @@ input, textarea {
 
 label  {
     display: flex;
-    gap: 2px;
+    gap: 4px;
     align-items: center;
 }
 
-button {}
-
-button:hover {}
+button {
+    padding: 8px;
+    border: 2px solid lightblue;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    filter: saturate(0%);
+    transition: filter 500ms;
+    box-shadow: 0px 0px 10px 1px #000000;
+}
+    
+button:hover {
+    filter: saturate(100%);
+}
 
 main {
-    height: 71vh;
+    min-height: 71vh;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
