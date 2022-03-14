@@ -1,0 +1,6 @@
+@media (min-width: 500px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
