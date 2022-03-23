@@ -16,6 +16,14 @@
     .mobile-icon {
         font-size: 30px;
     }
+
+    .mobile-hero-image {
+        height: fit-content;
+    }
+
+    .mobile-website-title {
+        font-size: 25px;
+    }
 }
 
 .mobile-flex {
