@@ -14,11 +14,11 @@
     }
 
     .mobile-icon {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .mobile-hero-image {
-        height: fit-content;
+        padding-bottom: 20px;
     }
 
     .mobile-website-title {
