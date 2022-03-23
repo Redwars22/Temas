@@ -1,6 +1,24 @@
-@media (min-width: 500px) {
+@media (max-width: 800px) {
     header {
         padding-left: 40px;
         padding-right: 40px;
     }
+    
+    .mobile-flex {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .mobile-text {
+        font-size: 24px;
+    }
+}
+
+.mobile-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-text {
+    font-size: 19px;
 }
