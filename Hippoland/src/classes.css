@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.with-icon, .title-container, .logo-container {
+.with-icon, .title-container, .logo-container, .head-image-container {
     display: flex;
 }
 
@@ -54,15 +54,36 @@
 .social-icons-grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 
 .social-icon {
-    font-size: 20px;
+    font-size: 25px;
     transition: font-size 400ms;
 }
 
 .social-icon:hover {
-    font-size: 27px;
+    font-size: 33px;
 }
+
+.head-image-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 15px;
+    background-color: #144572;
+    color: white;
+}
+
+.head-image {
+    border: 4px solid red;
+}
+
+.head-image-description {
+    
+}
+
+/*.hero-image-text-description {
+    margin-top: -33px;
+}*/
