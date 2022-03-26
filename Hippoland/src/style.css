@@ -23,3 +23,14 @@ nav {
     display: flex;
     background-color: #1F96BC;
 }
+
+footer {
+    color: white;
+    background-color: #127E78;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}

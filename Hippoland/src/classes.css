@@ -50,3 +50,19 @@
     width: 68px;
     height: 68px;
 }
+
+.social-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    align-items: center;
+}
+
+.social-icon {
+    font-size: 20px;
+    transition: font-size 400ms;
+}
+
+.social-icon:hover {
+    font-size: 27px;
+}
