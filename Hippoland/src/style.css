@@ -34,8 +34,6 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
-    margin-left: 150px;
-    margin-right: 150px;
+    /*position: absolute;
+    bottom: 0;*/
 }
