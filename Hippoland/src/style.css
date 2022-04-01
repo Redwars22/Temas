@@ -37,3 +37,8 @@ footer {
     height: 70px;
     justify-content: space-between;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
