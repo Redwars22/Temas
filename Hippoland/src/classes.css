@@ -138,3 +138,29 @@
 .product-name {
     font-size: 20px;
 }
+
+.form-control {
+    border: 2px solid crimson;
+    padding: 3px;
+    font-size: 17px;
+    transition: color 1200ms;
+    width: 100%;
+}
+
+.form-control:focus {
+    color: blue;
+}
+
+.std-button {
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: #1F96BC;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 500ms;
+}
+
+.std-button:hover {
+    background-color: #144572;
+}
