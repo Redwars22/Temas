@@ -165,3 +165,31 @@
 .std-button:hover {
     background-color: #144572;
 }
+
+.job-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    background-color: #1F96BC;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+}
+
+i.job-logo {
+    font-size: 150px;
+}
+
+.job-title {
+    font-size: 20px;
+}
+
+.job-subtitle {
+    font-size: 17px;
+}
+
+.with-bottom-border {
+    border-bottom: 5px dashed #144572;
+}
